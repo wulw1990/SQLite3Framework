@@ -7,11 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D043A0642A4E3D450099D757 /* libsqlite3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D08B6A662A4D76C900512D0E /* libsqlite3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D08B68EB2A4C5B4A00512D0E /* SQLite3Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = D08B68EA2A4C5B4A00512D0E /* SQLite3Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D08B68FB2A4C672500512D0E /* sqlite3load.h in Headers */ = {isa = PBXBuildFile; fileRef = D08B68FA2A4C672500512D0E /* sqlite3load.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D08B69112A4CFAA700512D0E /* sqlite3load.c in Sources */ = {isa = PBXBuildFile; fileRef = D08B69102A4CFAA700512D0E /* sqlite3load.c */; };
 		D08B6A672A4D76C900512D0E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D08B6A662A4D76C900512D0E /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D043A0632A4E3D390099D757 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D043A0642A4E3D450099D757 /* libsqlite3.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D08B68E72A4C5B4A00512D0E /* SQLite3Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite3Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +105,7 @@
 				D08B68E32A4C5B4A00512D0E /* Sources */,
 				D08B68E42A4C5B4A00512D0E /* Frameworks */,
 				D08B68E52A4C5B4A00512D0E /* Resources */,
+				D043A0632A4E3D390099D757 /* CopyFiles */,
 			);
 			buildRules = (
 			);
