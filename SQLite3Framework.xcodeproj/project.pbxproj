@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		D08B68EB2A4C5B4A00512D0E /* SQLite3Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = D08B68EA2A4C5B4A00512D0E /* SQLite3Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D08B68FB2A4C672500512D0E /* sqlite3load.h in Headers */ = {isa = PBXBuildFile; fileRef = D08B68FA2A4C672500512D0E /* sqlite3load.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D08B690F2A4CFA2E00512D0E /* libsqlite3load.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D08B690E2A4CFA2E00512D0E /* libsqlite3load.a */; };
 		D08B69112A4CFAA700512D0E /* sqlite3load.c in Sources */ = {isa = PBXBuildFile; fileRef = D08B69102A4CFAA700512D0E /* sqlite3load.c */; };
+		D08B6A672A4D76C900512D0E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D08B6A662A4D76C900512D0E /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D08B68E72A4C5B4A00512D0E /* SQLite3Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite3Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08B68EA2A4C5B4A00512D0E /* SQLite3Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLite3Framework.h; sourceTree = "<group>"; };
 		D08B68FA2A4C672500512D0E /* sqlite3load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3load.h; sourceTree = "<group>"; };
-		D08B690E2A4CFA2E00512D0E /* libsqlite3load.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsqlite3load.a; sourceTree = "<group>"; };
 		D08B69102A4CFAA700512D0E /* sqlite3load.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sqlite3load.c; sourceTree = "<group>"; };
+		D08B6A662A4D76C900512D0E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsqlite3.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,7 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08B690F2A4CFA2E00512D0E /* libsqlite3load.a in Frameworks */,
+				D08B6A672A4D76C900512D0E /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +53,7 @@
 		D08B68E92A4C5B4A00512D0E /* SQLite3Framework */ = {
 			isa = PBXGroup;
 			children = (
-				D08B690E2A4CFA2E00512D0E /* libsqlite3load.a */,
+				D08B6A662A4D76C900512D0E /* libsqlite3.dylib */,
 				D08B68FA2A4C672500512D0E /* sqlite3load.h */,
 				D08B68EA2A4C5B4A00512D0E /* SQLite3Framework.h */,
 				D08B69102A4CFAA700512D0E /* sqlite3load.c */,
